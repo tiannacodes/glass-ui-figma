@@ -1,0 +1,62 @@
+
+
+credit-card {
+    position: absolute;
+    width: 403px;
+    height: 257px;
+    left: 12px;
+    top: 334px;
+
+    background: radial-gradient(93.13% 230.38% at 2.69% 8.69%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.06) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 30px;
+}
+
+background {
+    position: absolute;
+    width: 428px;
+    height: 926px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #FBD4F3 0%, #DE6E89 100%);
+}
+
+credit-card-strip {
+    position: absolute;
+    width: 403px;
+    height: 109px;
+    left: 12px;
+    top: 482px;
+
+    background: linear-gradient(91.47deg, #AFE4F5 0%, #5C8DD7 38.81%, #8C46C2 96.78%);
+}
+
+bubbles {
+    position: absolute;
+    width: 146px;
+    height: 136px;
+    left: 333px;
+    top: 257px;
+
+    background: linear-gradient(114deg, #8DCDF1 10.24%, rgba(251, 243, 243, 0) 76.61%);
+}
+
+credit-text {
+    position: absolute;
+    width: 324px;
+    height: 39px;
+    left: 42px;
+    top: 436px;
+
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.2em;
+}
